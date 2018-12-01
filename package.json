@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "publish": "npm publish",
-    "git:push": "git add . && git commit -m Update && git pull origin && git push origin"
+    "push": "git add . && git commit -m Update && git pull origin && git push origin"
   },
   "peerDependencies": {
     "emotion": "^10.0.0"
