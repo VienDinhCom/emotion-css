@@ -1,6 +1,6 @@
 const { css } = require('emotion');
 
 module.exports = rules =>
-  typeof rules === 'string'
-    ? css`&&& { ${[rules]} }`
+  Array.isArray(rules)
+    ? css`&&& { ${rules[0]} }`
     : css({ '&&&': rules });
