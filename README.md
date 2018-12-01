@@ -1,4 +1,4 @@
-# Overriding CSS styles with Emotion
+# Overriding CSS styles with emotion
 
 You can use **emotion** to override Bootstrap, Foundation, Semantic UI, ... and other styles without `!important`.
 
