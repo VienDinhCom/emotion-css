@@ -12,7 +12,7 @@ import { css } from 'emotion-semantic-ui'
 const app = document.getElementById('root')
 
 const myStyle = css({
-  color: 'red,
+  color: 'red',
   background: 'yellow'
 });
 
