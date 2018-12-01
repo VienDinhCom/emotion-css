@@ -1,7 +1,7 @@
 {
   "name": "emotion-css",
   "description": "Overriding CSS rule-sets with Emotion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/maxvien/emotion-css.git",
   "author": "Vien Dinh <maxvien@gmail.com>",
