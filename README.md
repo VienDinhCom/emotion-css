@@ -2,12 +2,14 @@
 
 You can use this module to override Bootstrap, Foundation, Semantic UI, ... and other styles with Emotion.
 
-Get up and running with a single import.
+### Install
 
 ```bash
 npm install --save emotion
 npm install --save emotion-css
 ```
+
+### Usage
 
 ```javascript
 import css from 'emotion-css';
