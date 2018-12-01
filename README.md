@@ -4,7 +4,7 @@ Get up and running with a single import.
 
 ```bash
 npm install --save emotion
-npm install --save emotion-semantic-ui
+npm install --save emotion-override
 ```
 
 ```javascript
