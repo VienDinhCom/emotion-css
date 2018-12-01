@@ -1,4 +1,4 @@
-# Overriding Semantic UI with Emotion
+# Overriding CSS with Emotion
 
 Get up and running with a single import.
 
