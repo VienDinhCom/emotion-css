@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node@8/8.12.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js push
+  /usr/local/Cellar/node@8/8.12.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js publish
 
 PATH: 
   /usr/local/opt/node@8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/node@8/bin
@@ -14,25 +14,30 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/maxvien/Desktop/emotion-semantic-ui/package.json: Unexpected token } in JSON at position 374
-      at JSON.parse (<anonymous>)
-      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:1631:59
-      at Generator.next (<anonymous>)
-      at step (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:304:30)
-      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:315:13
-      at <anonymous>
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:125278:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:774:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1010:36)
 
 npm manifest: 
   {
     "name": "emotion-semantic-ui",
     "description": "Overriding Semantic UI with Emotion",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "index.js",
     "repository": "https://github.com/Maxvien/emotion-semantic-ui.git",
     "author": "Vien Dinh <maxvien@gmail.com>",
     "license": "MIT",
     "scripts": {
-      "push": "git add . && git commit -m Update && git pull origin && git push origin",
+      "publish": "npm publish",
+      "push": "git add . && git commit -m Update && git pull origin && git push origin"
     },
     "peerDependencies": {
       "emotion": "^10.0.0"
