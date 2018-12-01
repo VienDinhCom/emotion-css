@@ -1,13 +1,13 @@
 {
-  "name": "emotion-semantic-ui",
-  "description": "Overriding Semantic UI with Emotion",
-  "version": "1.0.4",
+  "name": "emotion-override",
+  "description": "Overriding CSS with Emotion",
+  "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Maxvien/emotion-semantic-ui.git",
+  "repository": "https://github.com/maxvien/emotion-override.git",
   "author": "Vien Dinh <maxvien@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "push": "git add . && git commit -m Update && git pull origin && git push origin"
+    "push": "git add . && git commit -m Update && git push origin"
   },
   "peerDependencies": {
     "emotion": "^10.0.0"
