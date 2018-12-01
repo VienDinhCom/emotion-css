@@ -12,10 +12,19 @@ import { css } from 'emotion-override';
 
 const app = document.getElementById('root');
 
-const myStyle = css({
+// Object Style
+const objectStyle = css({
   color: 'red',
   background: 'yellow'
 });
 
-app.classList.add(myStyle);
+// String Style
+const stringStyle = css(`
+  font-size: 14px;
+  border: none;
+`);
+
+app.classList.add(objectStyle);
+app.classList.add(stringStyle);
+
 ```
