@@ -1,7 +1,7 @@
 {
   "name": "emotion-semantic-ui",
   "description": "Overriding Semantic UI with Emotion",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "https://github.com/Maxvien/emotion-semantic-ui.git",
   "author": "Vien Dinh <maxvien@gmail.com>",
