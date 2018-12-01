@@ -1,6 +1,6 @@
 # Overriding CSS with Emotion
 
-You can use this module to override Bootstrap, Foundation, Semantic UI, ... and other styles with Emotion.
+You can use Emotion to override Bootstrap, Foundation, Semantic UI, ... and other styles without `!important`.
 
 ### Install
 
