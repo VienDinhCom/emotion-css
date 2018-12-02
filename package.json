@@ -8,7 +8,7 @@
   "author": "Vien Dinh <maxvien@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "push": "git add . && git commit -m Update && git push origin"
+    "push": "git add . && git commit -m Update && git pull origin && git push origin"
   },
   "peerDependencies": {
     "emotion": "^10.0.0"
