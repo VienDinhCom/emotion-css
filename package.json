@@ -2,7 +2,7 @@
   "name": "emotion-css",
   "description": "Overriding Bootstrap, Foundation, Semantic UI, ... and other CSS styles with Emotion",
   "keywords": ["emotion", "emotion css", "emotion override", "emotion bootstrap", "emotion foundation", "emotion semantic ui"],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "repository": "https://github.com/maxvien/emotion-css.git",
   "author": "Vien Dinh <maxvien@gmail.com>",
